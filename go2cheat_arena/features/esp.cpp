@@ -4,7 +4,7 @@
 void features::esp::draw_esp(bool render_friend) {
 
 	//utils::math::ViewMatrix view_matrix = driver::read_memory<utils::math::ViewMatrix>(driver_handle, client_dll_base + offsets::client_dll::dwViewMatrix);
-	utils::math::ViewMatrix view_matrix = driver::read_memory<utils::math::ViewMatrix>(driver_handle, client_dll_base + 0x1A68D18);
+	utils::math::ViewMatrix view_matrix = driver::read_memory<utils::math::ViewMatrix>(driver_handle, client_dll_base + 0x1A73028);
 
 	for (auto player : utils::Players::players) {
 		if ((render_friend || player->is_enemy()) && player->get_health() > 0 && !player->is_local_player())
