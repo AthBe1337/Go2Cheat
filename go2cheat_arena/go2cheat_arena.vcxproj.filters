@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tools\dumper\animationsystem_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\buttons.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\client_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\engine2_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\host_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\interfaces.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\materialsystem2_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\networksystem_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\offsets.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\panorama_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\particles_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\pulse_system_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\rendersystemdx11_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\resourcesystem_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\scenesystem_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\schemasystem_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\server_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\soundsystem_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\vphysics2_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\dumper\worldrenderer_dll.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imgui_impl_dx11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imgui_impl_win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imgui_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imstb_rectpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imstb_textedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\imgui\imstb_truetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\utils\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\utils\offsets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\utils\Players.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\utils\process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\utils\threads.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\driver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="features\esp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="features\radarHack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="features\triggerbot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\utils\memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\Coutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tools\imgui\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\imgui\imgui_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\imgui\imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\imgui\imgui_impl_dx11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\imgui\imgui_impl_win32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\imgui\imgui_tables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\imgui\imgui_widgets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\utils\math.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\utils\offsets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\utils\Players.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\utils\process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\driver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\go2cheat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="features\esp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="features\radarHack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="features\triggerbot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\Coutput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
